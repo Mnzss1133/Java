@@ -9,7 +9,7 @@ public class Palíndromo {
 	Scanner sc = new Scanner(System.in);
 	String palavra = sc.nextLine();
 	sc.close();
-	
+	palavra=palavra.replaceAll("\\s+" , " ");
 	String reversa="";
 	for(int i = palavra.length()-1;i>=0;i--) {
 		reversa+=palavra.charAt(i);
