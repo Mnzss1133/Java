@@ -7,7 +7,7 @@ public class Palíndromo {
 	
 	System.out.println("Digite a palavra: ");
 	Scanner sc = new Scanner(System.in);
-	String palavra = sc.next();
+	String palavra = sc.nextline();
 	sc.close();
 	
 	String reversa="";
